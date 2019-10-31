@@ -1,0 +1,35 @@
+{
+  "label": "SalesForce Analysis",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "http://api-lunacy.icons8.com/api/assets/4d19014a-72d0-4143-80bb-952646354f42/stitch-logo-copy@3x.png",
+    "tagline": "Load your SalesForce data into your data warehouse with Stitch and use this Block to jumpstart your analysis. This Block will help you establish the foundations of your analysis, which you can then augment with additional objects based on your customized schema."
+  },
+
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    },
+    "SALESFORCE_SCHEMA_NAME": {
+      "label": "Schema Name"
+    },
+    "CONFIG_PROJECT_NAME": {
+      "label": "Config Project Name"
+    }
+  },
+  "models": [
+    {
+      "name": "block_stitch_salesforce",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ],
+  "auxiliary_projects": [
+    {
+      "git_uri": "",
+      "git_ref": "",
+      "label": "Stitch SalesForce Config",
+      "constant_name": "config_project_name"
+    }
+  ]
+}
