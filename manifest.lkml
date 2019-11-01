@@ -8,12 +8,12 @@ constant:  CONFIG_PROJECT_NAME {
 }
 
 constant: CONNECTION_NAME {
-  value: "salesforce_data"
+  value: "salesforce connection name"
   export: override_required
 }
 
 constant: SALESFORCE_SCHEMA_NAME {
-  value: "salesforce"
+  value: "salesforce schema name"
   export: override_required
 }
 
