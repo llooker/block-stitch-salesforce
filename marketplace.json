@@ -26,8 +26,8 @@
   ],
   "auxiliary_projects": [
     {
-      "git_uri": "git@github.com:llooker/block-stitch-salesforce.git",
-      "git_ref": "9697897f233f0de53d64e27d8033d3280296b80d",
+      "git_uri": "git://github.com/llooker/block-stitch-salesforce.git",
+      "git_ref": "2b1bb1701a34bf01ecbccd600d8cd08d4edba5f3",
       "label": "Stitch SalesForce Config",
       "constant_name": "config_project_name"
     }
