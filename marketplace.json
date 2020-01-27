@@ -2,7 +2,7 @@
   "label": "SalesForce Analysis",
   "category_label": "Models",
   "branding": {
-    "image_uri": "http://api-lunacy.icons8.com/api/assets/4d19014a-72d0-4143-80bb-952646354f42/stitch-logo-copy@3x.png",
+  "image_uri": "https://marketplace-api.looker.com/block-icons/stitch_icon.png",
     "tagline": "Load your SalesForce data into your data warehouse with Stitch and use this Block to jumpstart your analysis. This Block will help you establish the foundations of your analysis, which you can then augment with additional objects based on your customized schema."
   },
 
