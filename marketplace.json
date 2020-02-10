@@ -1,9 +1,9 @@
 {
-  "label": "SalesForce Analysis",
+  "label": "Salesforce Analysis",
   "category_label": "Models",
   "branding": {
   "image_uri": "https://marketplace-api.looker.com/block-icons/stitch_icon.png",
-    "tagline": "Load your SalesForce data into your data warehouse with Stitch and use this Block to jumpstart your analysis. This Block will help you establish the foundations of your analysis, which you can then augment with additional objects based on your customized schema."
+    "tagline": "Load your Salesforce data into your data warehouse with Stitch and use this Block to jumpstart your analysis. This Block will help you establish the foundations of your analysis, which you can then augment with additional objects based on your customized schema."
   },
 
   "constants": {
