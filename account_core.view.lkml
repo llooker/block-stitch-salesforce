@@ -5,7 +5,7 @@ view: account {
 }
 
 view: account_core {
-  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.sf_account ;;
+  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_ACCOUNT_TABLE_NAME} ;;
   # dimensions #
 
   dimension: id {

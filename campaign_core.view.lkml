@@ -5,7 +5,7 @@ view: campaign {
 }
 
 view: campaign_core {
-  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.sf_campaign ;;
+  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_CAMPAIGN_TABLE_NAME} ;;
   # dimensions #
 
   dimension: id {

@@ -5,7 +5,7 @@ view: opportunity {
 }
 
 view: opportunity_core {
-  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.sf_opportunity ;;
+  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_OPPORTUNITY_TABLE_NAME} ;;
   # dimensions #
 
   dimension: id {

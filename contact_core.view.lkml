@@ -5,7 +5,7 @@ view: contact {
 }
 
 view: contact_core {
-  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.sf_contact ;;
+  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_CONTACT_TABLE_NAME} ;;
   # dimensions #
 
   dimension: id {

@@ -5,7 +5,7 @@ view: lead {
 }
 
 view: lead_core {
-  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.sf_lead ;;
+  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_LEAD_TABLE_NAME} ;;
   # dimensions #
 
   dimension: id {

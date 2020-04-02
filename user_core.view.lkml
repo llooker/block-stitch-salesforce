@@ -5,7 +5,7 @@ view: user {
 }
 
 view: user_core {
-  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.sf_user ;;
+  sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_USER_TABLE_NAME} ;;
 
   dimension: id {
     primary_key: yes
