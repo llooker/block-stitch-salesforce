@@ -30,7 +30,7 @@
       "label": "Salesforce Opportunity Table Name"
     },
     "SALESFORCE_USER_TABLE_NAME": {
-      "label": "Schema Name"
+      "label": "Salesforce User Table Name"
     },
     "CONFIG_PROJECT_NAME": {
       "label": "Config Project Name"
