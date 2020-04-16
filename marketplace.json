@@ -13,6 +13,24 @@
     },
     "SALESFORCE_SCHEMA_NAME": {
       "label": "Schema Name"
+    }, 
+    "SALESFORCE_ACCOUNT_TABLE_NAME": {
+      "label": "Salesforce Account Table Name"
+    },
+     "SALESFORCE_CAMPAIGN_TABLE_NAME": {
+      "label": "Salesforce Campaign Table Name"
+    },
+    "SALESFORCE_CONTACT_TABLE_NAME": {
+      "label": "Salesforce Contact Table Name"
+    },
+    "SALESFORCE_LEAD_TABLE_NAME": {
+      "label": "Salesforce Lead Table Name"
+    },
+    "SALESFORCE_OPPORTUNITY_TABLE_NAME": {
+      "label": "Salesforce Opportunity Table Name"
+    },
+    "SALESFORCE_USER_TABLE_NAME": {
+      "label": "Schema Name"
     },
     "CONFIG_PROJECT_NAME": {
       "label": "Config Project Name"
