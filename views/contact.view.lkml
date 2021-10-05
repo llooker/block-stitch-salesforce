@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/contact.view"
-
 view: contact {
-  extends: [contact_config]
-}
-
-view: contact_core {
   sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_CONTACT_TABLE_NAME} ;;
   # dimensions #
 

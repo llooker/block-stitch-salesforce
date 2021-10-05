@@ -1,6 +1,6 @@
-explore: lead_core {
-  hidden:yes
-  extension: required
+include: "/views/*.view"
+
+explore: lead {
   #   sql_always_where: |
   #     NOT ${lead.is_deleted}
   join: lead_owner {

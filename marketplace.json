@@ -13,7 +13,7 @@
     },
     "SALESFORCE_SCHEMA_NAME": {
       "label": "Schema Name"
-    }, 
+    },
     "SALESFORCE_ACCOUNT_TABLE_NAME": {
       "label": "Salesforce Account Table Name"
     },
@@ -31,23 +31,12 @@
     },
     "SALESFORCE_USER_TABLE_NAME": {
       "label": "Salesforce User Table Name"
-    },
-    "CONFIG_PROJECT_NAME": {
-      "label": "Config Project Name"
     }
   },
   "models": [
     {
-      "name": "block_stitch_salesforce",
+      "name": "block_stitch_salesforce_v2",
       "connection_constant": "CONNECTION_NAME"
-    }
-  ],
-  "auxiliary_projects": [
-    {
-      "git_uri": "git://github.com/llooker/block-stitch-salesforce-config.git",
-      "git_ref": "609e79210a39ae1af28d1791fdfd990a439b59ab",
-      "label": "Stitch Salesforce Config",
-      "constant_name": "CONFIG_PROJECT_NAME"
     }
   ]
 }

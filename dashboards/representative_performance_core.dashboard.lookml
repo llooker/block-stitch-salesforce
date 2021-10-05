@@ -30,7 +30,7 @@
   - name: count_won_deals
     title: 'Count of Won Deals (This Quarter)'
     type: single_value
-    model: block_stitch_salesforce
+    model: block_stitch_salesforce_v2
     explore: opportunity
     measures: [opportunity.count_won]
     listen:
@@ -47,7 +47,7 @@
   - name: salesrep_total_revenue
     title: 'Salesrep - Total Revenue (This Quarter)'
     type: single_value
-    model: block_stitch_salesforce
+    model: block_stitch_salesforce_v2
     explore: opportunity
     measures: [opportunity.total_revenue]
     listen:
@@ -64,7 +64,7 @@
   - name: count_lost_deals
     title: 'Count of Lost Deals (This Quarter)'
     type: single_value
-    model: block_stitch_salesforce
+    model: block_stitch_salesforce_v2
     explore: opportunity
     measures: [opportunity.count_lost]
     listen:
@@ -81,7 +81,7 @@
   - name: win_percentage
     title: 'Win Percentage of Closed Deals (This Quarter)'
     type: single_value
-    model: block_stitch_salesforce
+    model: block_stitch_salesforce_v2
     explore: opportunity
     measures: [opportunity.win_percentage]
     listen:
@@ -98,7 +98,7 @@
   - name: opportunities_to_wins_trend_peers
     title: 'Opportunities to Wins by Rep'
     type: looker_line
-    model: block_stitch_salesforce
+    model: block_stitch_salesforce_v2
     explore: opportunity
     dimensions: [opportunity.created_month, opportunity_owner.rep_comparitor]
     pivots: [opportunity_owner.rep_comparitor]
@@ -143,7 +143,7 @@
   - name: salesrep_revenue_won_comparison
     title: 'SalesRep - Revenue Won comparison'
     type: looker_bar
-    model: block_stitch_salesforce
+    model: block_stitch_salesforce_v2
     explore: opportunity
     dimensions: [opportunity_owner.rep_comparitor]
     measures: [opportunity.average_revenue_won]
@@ -178,7 +178,7 @@
   - name: salesrep_win_rate_comparison
     title: 'SalesRep - Win Rate Comparison'
     type: looker_bar
-    model: block_stitch_salesforce
+    model: block_stitch_salesforce_v2
     explore: opportunity
     dimensions: [opportunity_owner.rep_comparitor]
     measures: [opportunity.win_percentage]
@@ -213,7 +213,7 @@
   - name: salesrep_revenue_pipeline_comparison
     title: 'SalesRep - Revenue Pipeline comparison'
     type: looker_bar
-    model: block_stitch_salesforce
+    model: block_stitch_salesforce_v2
     explore: opportunity
     dimensions: [opportunity_owner.rep_comparitor]
     measures: [opportunity_owner.average_revenue_pipeline]
