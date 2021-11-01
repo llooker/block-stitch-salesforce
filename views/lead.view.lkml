@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/lead.view"
-
 view: lead {
-  extends: [lead_config]
-}
-
-view: lead_core {
   sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_LEAD_TABLE_NAME} ;;
   # dimensions #
 

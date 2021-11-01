@@ -1,6 +1,6 @@
-explore: account_core {
-  hidden:yes
-  extension: required
+include: "/views/*.view"
+
+explore: account {
   #   sql_always_where: |
   #     NOT ${account.is_deleted}
   fields: [ALL_FIELDS*, -account_owner.opportunity_set*, -creator.opportunity_set*]

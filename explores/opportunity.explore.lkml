@@ -1,6 +1,6 @@
-explore: opportunity_core {
-  hidden:yes
-  extension: required
+include: "/views/*.view"
+
+explore: opportunity {
   #   sql_always_where: |
   #     NOT ${opportunity.is_deleted}
   join: account {

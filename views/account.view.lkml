@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/account.view"
-
 view: account {
-  extends: [account_config]
-}
-
-view: account_core {
   sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_ACCOUNT_TABLE_NAME} ;;
   # dimensions #
 

@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/campaign.view"
-
 view: campaign {
-  extends: [campaign_config]
-}
-
-view: campaign_core {
   sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_CAMPAIGN_TABLE_NAME} ;;
   # dimensions #
 

@@ -1,10 +1,4 @@
-include: "//@{CONFIG_PROJECT_NAME}/user.view"
-
 view: user {
-  extends: [user_config]
-}
-
-view: user_core {
   sql_table_name: @{SALESFORCE_SCHEMA_NAME}.@{SALESFORCE_USER_TABLE_NAME} ;;
 
   dimension: id {
